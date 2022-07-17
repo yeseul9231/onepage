@@ -148,3 +148,45 @@ header>.btn{
   border-radius: 26px;
 }
 /* box03 */
+#box03{
+
+}
+#box03>div{
+  width: 1300px;
+  margin: 0 auto;
+}
+#box03 .box{
+  display: flex;
+  flex-wrap: wrap;
+}
+#box03 .box>div{
+  width: 50%;
+}
+#box03 .box>div>p.text{
+  line-height: 30px;
+  width: 493px;
+}
+#box03 .box>ul{
+  width: 50%;
+}
+#box03 .box>ul>li{
+  width: 80px;
+  height: 80px;
+  border: 2px solid #cbcbcb;
+  margin:0 8px 16px;
+  float: left;
+  text-indent: -99999px;
+  background:url('../images/icon/html5.png') no-repeat center;
+}
+#box03 .box>ul>li:nth-child(2){background-image: url('../images/icon/css3.png');}
+#box03 .box>ul>li:nth-child(3){background-image: url('../images/icon/javascript.png');}
+#box03 .box>ul>li:nth-child(4){background-image: url('../images/icon/jquery.png');}
+#box03 .box>ul>li:nth-child(5){background-image: url('../images/icon/vue.png');}
+#box03 .box>ul>li:nth-child(6){background-image: url('../images/icon/react.png');}
+#box03 .box>ul>li:nth-child(7){background-image: url('../images/icon/git.png');}
+#box03 .box>ul>li:nth-child(8){background-image: url('../images/icon/npm.png');}
+#box03 .box>ul>li:nth-child(9){background-image: url('../images/icon/sass.png');}
+#box03 .box>ul>li:nth-child(10){background-image: url('../images/icon/typescript.png');}
+#box03 .box>ul>li:nth-child(11){background-image: url('../images/icon/vs-code.png');}
+#box03 .box>ul>li:nth-child(12){background-image: none;}
+
