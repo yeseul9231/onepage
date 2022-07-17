@@ -191,4 +191,53 @@ header>.btn{
 #box03 .box>ul>li:nth-child(12){background-image: none;}
 
 /* box04 */
-#box04{}
+#box04{
+  background-color: #c3c3c3;
+  text-align: center;
+  
+}
+#box04 h3{
+  color: #fff;
+}
+#box04 div>.title{
+  color: #fff;
+  text-align: center;
+}
+#box04 div>.text{
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+#box04 div>ul{
+  margin-bottom: 40px;
+  color: #fff;
+}
+#box04 div>ul>li{
+  color: #fff;
+  display: inline-block;
+  padding: 0 20px;
+  border-left: 1px solid #fff;
+
+}
+#box04 div>ul>li:first-child{
+  border-left: none;
+}
+#box04 div>ul>li>a{
+  color: #fff;
+}
+#gallery{}
+#gallery #all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#gallery figure{
+  width: calc(33% - 46px);
+  margin-bottom: 46px;
+  color: #fff;
+}
+#gallery figure>img{
+  margin-bottom: 23px;
+}
+#gallery .prev{display: none;}
+#gallery .next{display: none;}
